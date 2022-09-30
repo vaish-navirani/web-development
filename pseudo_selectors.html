@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo  class  selectors</title>
+    <style>
+        /* style go here */
+        header li {
+            list-style: none;
+        }
+        a:link , a:visited {
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: block;/*to make use of a tag as block level element */
+            width: 200px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+        a:hover ,a:active {
+            background-color: aliceblue;
+            color: purple;
+        }
+        header li:nth-child(3){
+            font-size: 24px;
+        }
+        section div:nth-child(odd) {
+            background-color: gray;
+        }
+        section div:nth-child(4):hover{
+            background-color: aquamarine;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>pseudo  class  selectors</h1>
+    <header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="https://drive.google.com/drive/u/0/folders/1pr9LSQ3atw427D9iFZPiUxKrnM3-WT-P"
+                target="_blank">Cpp Course</a></li>
+            <li><a href="http://www.facebook.com/CourseraWebDev"
+                target="_blank">Facebook fan page</a></li>
+
+        </ul>
+    </header>
+    <section>
+        <div>DIV 1</div>
+        <div>DIV 2</div>
+        <div>DIV 3</div>
+        <div>DIV 4</div>
+        <div>DIV 5</div>
+        <div>DIV 6</div>
+        <div>DIV 7</div>
+        <div>DIV 8</div>
+        <div>DIV 9</div>
+        <div>DIV 10</div>
+        <div>DIV 11</div>
+        <div>DIV 12</div>
+        <div>DIV 13</div>
+        <div>DIV 14</div>
+        <div>DIV 15</div>
+        <div>DIV 16</div>
+        <div>DIV 17</div>
+        <div>DIV 18</div>
+        <div>DIV 19</div>
+        <div>DIV 20</div>
+    </section>
+</body>
+</html>

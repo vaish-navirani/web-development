@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple selectors</title>
+    <style>
+      /* all h2 elements */
+      h2 {
+        color: red;
+        text-align: center;
+      }
+      /* all with class="highlight"*/
+      .highlight
+      {
+          font-size: 20px;
+          font-weight:bold;
+          font-style: italic;
+          background-color: green;
+          opacity: .6;
+      }
+      /* element with id="mainpoint"*/
+      #mainpoint{
+          font-size: 24px;
+          font-weight: bold;
+          background-color: red;
+          opacity: .7;
+      }
+      /* all p and h1 element   */
+      p,h1 {
+          color:blue;
+          text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+      <h1>simple selectors(h1)</h1>
+      <h2>Subheading 1(h2)</h2>
+      <p class="highlight">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      Quibusdam saepe consequuntur asperiores reiciendis, modi, magni omnis autem 
+      magnam repellat error nemo quos culpa nulla nostrum. Ipsa, suscipit. Fuga,
+       recusandae harum vel sunt velit nobis perspiciatis officia modi, illum
+        praesentium eius.</p>
+        <p class="highlight">Paragraph with attribute class="highlight" Lorem ipsum 
+        dolor, sit amet consectetur adipisicing elit.</p>
+        <h2>Subheading 2 (h2)</h2>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate 
+        aliquam explicabo exercitationem rerum. Minima blanditiis expedita doloremque 
+        aspernatur autem consequatur a maxime excepturi possimus. Eligendi nihil cum 
+        magnam adipisci.
+        </p>
+        <div>
+        This is the mainpoint of the entire article.so attribute
+        <span id="mainpoint">id="mainpoint"</span>
+        </div>
+  </body>
+</html>
